@@ -298,8 +298,8 @@ static NSString *cellIdentifier = @"KBContactCell";
             if (contact.phonesWithLabels.count > 0) {
                 APPhoneWithLabel *phoneWithLabel = contact.phonesWithLabels[0];
                 if (phoneWithLabel) {
-                    phoneText = phoneWithLabel.phone;
-                    typeText = phoneWithLabel.label;
+                    /* phoneText = phoneWithLabel.phone; */
+                    /* typeText = phoneWithLabel.label; */
                 }
             }
         }
